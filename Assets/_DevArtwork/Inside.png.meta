@@ -236,11 +236,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_5
+      name: Machine_icecream
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 160
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -261,8 +261,8 @@ TextureImporter:
       name: Inside_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 192
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -283,7 +283,7 @@ TextureImporter:
       name: Inside_7
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 192
         width: 32
         height: 32
@@ -317,8 +317,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db54fda56bd21f843b81d119aae5384a
-      internalID: -1516712390
+      spriteID: 3024502e1e4202f488c6f279de9b62e0
+      internalID: -1436226909
       vertices: []
       indices: 
       edges: []
@@ -339,14 +339,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78cc375513e92bf4ba0ce25aac0d08ad
-      internalID: -1037523329
+      spriteID: b38309f3dca6458419afa944e38edab8
+      internalID: 257236833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_10
+      name: Machine_cream
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827db3d6f9f3919468cbbb43e45bd58d
+      internalID: -2029845241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f13086352f661d4eb2b539d9ded2eb0
+      internalID: -1862183701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d549e413d5524fa4588516e5f6a7ed50
+      internalID: 1384503986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Machine_butter
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea50a59183fcfc4c81a2e624b736631
+      internalID: 1806710404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_14
       rect:
         serializedVersion: 2
         x: 0
@@ -361,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3024502e1e4202f488c6f279de9b62e0
-      internalID: -1436226909
+      spriteID: 1d17fe90ad99ecd43b528362045af74b
+      internalID: 2031343176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_11
+      name: Inside_15
       rect:
         serializedVersion: 2
         x: 32
@@ -383,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b38309f3dca6458419afa944e38edab8
-      internalID: 257236833
+      spriteID: 0be8aafef1a1cd6468d17fd61394fa55
+      internalID: 848013648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_12
+      name: Inside_16
       rect:
         serializedVersion: 2
         x: 64
@@ -405,8 +493,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 827db3d6f9f3919468cbbb43e45bd58d
-      internalID: -2029845241
+      spriteID: c59ccea1a222fec43ac38b6b68f533de
+      internalID: -972687729
       vertices: []
       indices: 
       edges: []
@@ -427,8 +515,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b22bc4198580bc14b9bf72211e142893
-      internalID: 318834353
+      spriteID: 4760f01c0e1aa53478446004ac6f3eb0
+      internalID: -660997795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683b7d1c38ff9e84eba1652aa87afe86
+      internalID: 828775649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b7bc44cdf94f409b277dd5297467b
+      internalID: 405987209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b693158144341ca4cabb7fb322149836
+      internalID: 689458437
       vertices: []
       indices: 
       edges: []
@@ -449,20 +603,27 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Collectable_butter: -1037523329
-      Collectable_cream: 318834353
-      Collectable_icecream: -1516712390
+      Collectable_butter: 257236833
+      Collectable_cream: -660997795
+      Collectable_icecream: -1436226909
       Inside_0: -8417768224960098919
       Inside_1: -762502961
-      Inside_10: -1436226909
-      Inside_11: 257236833
-      Inside_12: -2029845241
+      Inside_10: 405987209
+      Inside_11: 689458437
+      Inside_14: 2031343176
+      Inside_15: 848013648
+      Inside_16: -972687729
       Inside_2: -724682557
       Inside_3: 1740657887
       Inside_4: -83595526
-      Inside_5: -2108734781
+      Inside_5: 828775649
       Inside_6: 433184760
       Inside_7: -1250046856
+      Inside_8: -1862183701
+      Inside_9: 1384503986
+      Machine_butter: 1806710404
+      Machine_cream: -2029845241
+      Machine_icecream: -2108734781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

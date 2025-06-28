@@ -19,7 +19,7 @@ TagManager:
   - Collectable
   - PlayerCollider
   - House
-  - 
+  - Machine
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Collectable
     uniqueID: 2844178149
+    locked: 0
+  - name: Machine
+    uniqueID: 3015015671
     locked: 0
   - name: Player
     uniqueID: 2156796513
