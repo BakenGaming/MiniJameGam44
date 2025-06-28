@@ -10,23 +10,28 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject settingsMenu;
     [SerializeField] private GameObject creditsScreen;
+    [SerializeField] private GameObject enterHouseMenu;
     [SerializeField] private bool isMainMenu;
 
-    private void OnEnable() 
+    [Header("INVENTORY")]
+    [SerializeField] private GameObject inventoryPanel;
+
+    private void OnEnable()
     {
         if (isMainMenu) Initialize();
     }
-    private void OnDisable() 
+    private void OnDisable()
     {
 
     }
-    private void Initialize()
+    public void Initialize()
     {
-        GetComponent<VolumeSettings>().Initialize();        
-        if(!isMainMenu) pauseMenu.SetActive(false);
+        GetComponent<VolumeSettings>().Initialize();
+        if (!isMainMenu) pauseMenu.SetActive(false);
         else creditsScreen.SetActive(false);
-        
+
         settingsMenu.SetActive(false);
+        GetComponent<UIInventoryController>().Initialize();
     }
 
     private void OpenPauseMenu()
@@ -79,6 +84,16 @@ public class UIController : MonoBehaviour
     public void ExitGame()
     {
         SceneController.ExitGame();
+    }
+
+    private void OpenEnterHouseMenu()
+    { 
+        enterHouseMenu.SetActive(true);
+    }
+
+    private void CloseEnterHouseMenu()
+    {
+        enterHouseMenu.SetActive(false);
     }
 
 }

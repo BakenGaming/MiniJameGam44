@@ -1,7 +1,8 @@
 using UnityEngine;
 
 public enum GatherableType
-{ milk, salt, sugar, butter, cream, icecream}
+{ milk, salt, sugar, butter, cream, icecream }
+[CreateAssetMenu(menuName ="Gatherable")]
 public class GatherableSO : ScriptableObject
 {
     [SerializeField] public GatherableType gatherableType;

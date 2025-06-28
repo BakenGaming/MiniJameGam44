@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using System;
+using Unity.Cinemachine;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +13,8 @@ public class GameManager : MonoBehaviour
     public static GameManager i { get { return _i; } }
     [SerializeField] private Transform sysMessagePoint;
     [SerializeField] private Transform spawnPoint;
+    [SerializeField] private UIController uiController;
+    [SerializeField] private CinemachineCamera playerCam;
 
     private StaticVariables _s;
     private GameObject playerGO;
@@ -42,6 +43,17 @@ public class GameManager : MonoBehaviour
             Vector2.zero, Quaternion.identity);
         NodeSpawnController _n = newWorld.GetComponent<IWorldHandler>().GetNodeSpawner();
         _n.Initialize();
+        uiController.Initialize();
+        SpawnPlayerHouse(_n.GetMaxEast(), _n.GetMaxNorth(), _n.GetMaxSouth(), _n.GetMaxWest());
+    }
+
+    private void SpawnPlayerHouse(Transform _n, Transform _e, Transform _s, Transform _w)
+    {
+        Vector2 houseSpawnPoint = new Vector2(UnityEngine.Random.Range(_w.position.x, _e.position.x),
+            UnityEngine.Random.Range(_n.position.y, _s.position.y));
+        GameObject newHouse = Instantiate(GameAssets.i.playerHouse, houseSpawnPoint, Quaternion.identity);
+        newHouse.GetComponent<HouseHandler>().Initialize();
+        spawnPoint.position = new Vector2(houseSpawnPoint.x, houseSpawnPoint.y - 1f);
         SpawnPlayerObject();
     }
 
@@ -51,6 +63,7 @@ public class GameManager : MonoBehaviour
         playerGO.transform.parent = null;
         playerGO.GetComponent<IHandler>().Initialize();
         OnPlayerSpawned?.Invoke();
+        playerCam.GetComponent<CameraController>().SetupCamera();
     }
 
     public void SetupObjectPools()

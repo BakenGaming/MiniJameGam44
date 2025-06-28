@@ -1,15 +1,12 @@
+using Unity.Cinemachine;
 using Unity.VisualScripting;
 using UnityEngine;
-
 public class CameraController : MonoBehaviour
 {
-    void Awake()
+    private CinemachineCamera playerCam;
+    public void SetupCamera()
     {
-        GameManager.OnPlayerSpawned += SetupCamera;
-    }
-
-    private void SetupCamera()
-    {
-        Camera.main.gameObject.transform.SetParent(GameManager.i.GetPlayerGO().transform);
+        playerCam = GetComponent<CinemachineCamera>();
+        playerCam.Follow = GameManager.i.GetPlayerGO().transform;
     }
 }

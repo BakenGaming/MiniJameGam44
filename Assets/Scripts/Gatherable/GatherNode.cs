@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class GatherNode : MonoBehaviour, IGatherable, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private SpriteRenderer nodeSR;
     [SerializeField] private Transform spawnPoint;
+    [SerializeField] private Slider nodeLifeBar;
     private float rareCalculator, rareChance;
     private GameObject rareItemToSpawn;
     private GatherableSO itemToSpawn;
@@ -12,6 +14,7 @@ public class GatherNode : MonoBehaviour, IGatherable, IPointerEnterHandler, IPoi
     private IInputHandler _playerHandler;
     private bool _ableToGather = false;
     private int remainingGatherAttempts;
+    private HealthSystem nodeLife;
     public void Initialize(GatheringNodeSO _nodeSO)
     {
         nodeSR.sprite = _nodeSO.nodeSprite;
@@ -19,6 +22,8 @@ public class GatherNode : MonoBehaviour, IGatherable, IPointerEnterHandler, IPoi
         rareItemToSpawn = _nodeSO.rareItem;
         rareChance = _nodeSO.rareChance;
         remainingGatherAttempts = _nodeSO.numberOfAttempts;
+        nodeLife = new HealthSystem(remainingGatherAttempts);
+        nodeLifeBar.value = nodeLife.GetHealthPercentage();
         Debug.Log("Gather Node Initialize");
     }
     public void Gather()
@@ -33,6 +38,8 @@ public class GatherNode : MonoBehaviour, IGatherable, IPointerEnterHandler, IPoi
         newGatherable.GetComponent<Rigidbody2D>().AddForce(dropDirection * dropForce, ForceMode2D.Impulse);
 
         remainingGatherAttempts--;
+        nodeLife.LoseHealth(1);
+        nodeLifeBar.value = nodeLife.GetHealthPercentage();
         if (remainingGatherAttempts <= 0) Destroy(gameObject);
     }
 

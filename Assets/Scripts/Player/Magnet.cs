@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Magnet : MonoBehaviour
 {
-    [SerializeField] private float magnetRadius = 3f;
+    [SerializeField] private float magnetRadius = 2f;
     private Collider2D[] colliders;
     private GameObject player;
 

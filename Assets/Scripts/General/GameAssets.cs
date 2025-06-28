@@ -28,6 +28,7 @@ public class GameAssets : MonoBehaviour
     public GameObject pfPlayerObject;
     public GameObject pfGatheringNode;
     public GameObject[] possibleWorlds;
+    public GameObject playerHouse;
   
     public SoundAudioClip[] audioClipArray;
     public MusicAudioClip[] musicTrackArray;

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96307f8c4aba3e64c99d45caae8fda05, type: 3}
+  m_Name: Sugar
+  m_EditorClassIdentifier: 
+  gatherableType: 2
+  gatherableObject: {fileID: 4074382577628438336, guid: 095ddd4bbc87a4048a0fde55530bb592, type: 3}
+  gatherableSprite: {fileID: -1124642401, guid: 1d0a58255a3977b4b9c8b6cf0f7ab8d0, type: 3}

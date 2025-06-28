@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1d0a58255a3977b4b9c8b6cf0f7ab8d0
+guid: bc566262923c5b64f90471d1d53d8600
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2337442328110287195
-    second: Ground_Outside_0
+      213: -8417768224960098919
+    second: Inside_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +76,7 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 0
+    compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ground_Outside_0
+      name: Inside_0
       rect:
         serializedVersion: 2
         x: 0
@@ -139,16 +139,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a0dc65d6ad2332549a01a471d639028a
-      internalID: 2010301808
+      spriteID: 99dcead06641e2b80800000000000000
+      internalID: -8417768224960098919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_1
+      name: Inside_1
       rect:
         serializedVersion: 2
         x: 32
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a7870da6dbd9df4dbfdb1217890e51f
-      internalID: -351053914
+      spriteID: fb55ca66f84c3f84fb3019378d2ae6f1
+      internalID: -762502961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_2
+      name: Inside_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 654a65d1b82c2894c996d68a3b1d9f71
-      internalID: -970347430
+      spriteID: d770b405daa247e4ba2555290497096a
+      internalID: -724682557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_3
+      name: Inside_3
       rect:
         serializedVersion: 2
         x: 96
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1950a751283627f42994da1577570254
-      internalID: 863013434
+      spriteID: cba7cd1905bdc6440a53a5eb3cb24214
+      internalID: 1740657887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_4
+      name: Inside_4
       rect:
         serializedVersion: 2
         x: 128
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c665c692cea2b749aadf7c2551791ed
-      internalID: -800128230
+      spriteID: 895adf3bcb4164d4e8a9091988a5d5e5
+      internalID: -83595526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_5
+      name: Inside_5
       rect:
         serializedVersion: 2
         x: 0
@@ -251,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e72ea50140833a547880ca7b1f229c92
-      internalID: -448007384
+      spriteID: f85f6fb65ed7d0141bb746bf09773370
+      internalID: -2108734781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_6
+      name: Inside_6
       rect:
         serializedVersion: 2
         x: 32
@@ -273,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27de66df3242c0a4889297769804ec37
-      internalID: -1616059088
+      spriteID: 96016ab13e746024896ba1c061b1f983
+      internalID: 433184760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_7
+      name: Inside_7
       rect:
         serializedVersion: 2
         x: 64
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc591b55282416e4a967b5109a37943b
-      internalID: -2002273922
+      spriteID: 00ac4f86fbb441949b86a93da7b81454
+      internalID: -1250046856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_8
+      name: Collectable_icecream
       rect:
         serializedVersion: 2
         x: 96
@@ -317,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf062c6e92519384387fba08bded1e10
-      internalID: 948865698
+      spriteID: db54fda56bd21f843b81d119aae5384a
+      internalID: -1516712390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_9
+      name: Collectable_butter
       rect:
         serializedVersion: 2
         x: 128
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dfbd88d05c5e1246ad256e1780c77ab
-      internalID: -667656899
+      spriteID: 78cc375513e92bf4ba0ce25aac0d08ad
+      internalID: -1037523329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_10
+      name: Inside_10
       rect:
         serializedVersion: 2
         x: 0
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f4c47dbf45f6ef4297a671be712f547
-      internalID: 685540058
+      spriteID: 3024502e1e4202f488c6f279de9b62e0
+      internalID: -1436226909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_11
+      name: Inside_11
       rect:
         serializedVersion: 2
         x: 32
@@ -383,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11459f52066578040b4f35cbbd96a63f
-      internalID: 212508750
+      spriteID: b38309f3dca6458419afa944e38edab8
+      internalID: 257236833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_12
+      name: Inside_12
       rect:
         serializedVersion: 2
         x: 64
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edf0e2a2c8c7c134595ea77306e8553a
-      internalID: -547052533
+      spriteID: 827db3d6f9f3919468cbbb43e45bd58d
+      internalID: -2029845241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ground_Outside_13
+      name: Collectable_cream
       rect:
         serializedVersion: 2
         x: 96
@@ -427,250 +427,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc21c98fe7196444aaca5dfd855d7f28
-      internalID: 1240181077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground_Outside_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 990ec5a01dfd64e44b9d4a61e32a967d
-      internalID: 245910094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground_Outside_15
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0140953ffad35340918852c07d6a46c
-      internalID: -885831023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground_Outside_16
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06aed1f515d90864199844646c13c33f
-      internalID: 808641594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_sugar
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5e036cbb2db2df418f96155eff12150
-      internalID: -1124642401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_milk
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26f42312a5c3656429a226276150b42b
-      internalID: 2110158108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Collectable_salt
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c9c2d73679167c48843b821f8870e91
-      internalID: -106538708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Node_sugar
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e53cf934055c37b408ff8771a5cd7df3
-      internalID: -1695069988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Node_milk
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35c487e7d54789b449e345375e0dc4dd
-      internalID: -718847461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Node_salt
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ea4abce54d2c1849b1b072fe8414d56
-      internalID: 723081690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground_Outside_17
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 768751de14f5ed141909255a4d50b23d
-      internalID: 1517342867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ground_Outside_18
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f89ce613c394884e92febb1441285a8
-      internalID: -1350371541
+      spriteID: b22bc4198580bc14b9bf72211e142893
+      internalID: 318834353
       vertices: []
       indices: 
       edges: []
@@ -679,7 +437,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4b1c90e7e2b08e5469e115b44c230d70
+    spriteID: d170c5e13df2c884fb1c67372cdcab75
     internalID: 0
     vertices: []
     indices: 
@@ -691,31 +449,20 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Collectable_milk: 2110158108
-      Collectable_salt: -106538708
-      Collectable_sugar: -1124642401
-      Ground_Outside_0: 2010301808
-      Ground_Outside_1: -351053914
-      Ground_Outside_10: 685540058
-      Ground_Outside_11: 212508750
-      Ground_Outside_12: -547052533
-      Ground_Outside_13: 1240181077
-      Ground_Outside_14: 245910094
-      Ground_Outside_15: -885831023
-      Ground_Outside_16: 808641594
-      Ground_Outside_17: 1517342867
-      Ground_Outside_18: -1350371541
-      Ground_Outside_2: -970347430
-      Ground_Outside_3: 863013434
-      Ground_Outside_4: -800128230
-      Ground_Outside_5: -448007384
-      Ground_Outside_6: -1616059088
-      Ground_Outside_7: -2002273922
-      Ground_Outside_8: 948865698
-      Ground_Outside_9: -667656899
-      Node_milk: -718847461
-      Node_salt: 723081690
-      Node_sugar: -1695069988
+      Collectable_butter: -1037523329
+      Collectable_cream: 318834353
+      Collectable_icecream: -1516712390
+      Inside_0: -8417768224960098919
+      Inside_1: -762502961
+      Inside_10: -1436226909
+      Inside_11: 257236833
+      Inside_12: -2029845241
+      Inside_2: -724682557
+      Inside_3: 1740657887
+      Inside_4: -83595526
+      Inside_5: -2108734781
+      Inside_6: 433184760
+      Inside_7: -1250046856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

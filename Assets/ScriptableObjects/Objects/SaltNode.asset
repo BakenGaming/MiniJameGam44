@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberOfAttempts: 3
   nodeSprite: {fileID: 723081690, guid: 1d0a58255a3977b4b9c8b6cf0f7ab8d0, type: 3}
-  collectableItem: {fileID: 4074382577628438336, guid: 095ddd4bbc87a4048a0fde55530bb592, type: 3}
+  collectableItem: {fileID: 11400000, guid: bd6a265ce5a28914c8fa8b0d39174672, type: 2}
   rareItem: {fileID: 0}
   rareChance: 0

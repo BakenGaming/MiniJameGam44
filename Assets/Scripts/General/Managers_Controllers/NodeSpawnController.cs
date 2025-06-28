@@ -48,7 +48,7 @@ public class NodeSpawnController : MonoBehaviour
         currentSpawnPosition.transform.position =
             new Vector2(Random.Range(maxWest.position.x, maxEast.position.x),
             Random.Range(maxNorth.position.y, maxSouth.position.y));
-        
+
         if (Vector2.Distance(currentSpawnPosition.transform.position, lastSpawnPosition.transform.position) < 5f)
             PickNewSpawnLocation();
 
@@ -59,8 +59,14 @@ public class NodeSpawnController : MonoBehaviour
                 PickNewSpawnLocation();
             break;
         }
-        
+
         lastSpawnPosition.transform.position = currentSpawnPosition.transform.position;
     }
+    #endregion
+    #region Get Functions
+    public Transform GetMaxNorth() { return maxNorth; }
+    public Transform GetMaxEast() { return maxEast; }
+    public Transform GetMaxSouth() { return maxSouth; }
+    public Transform GetMaxWest() { return maxWest; }
     #endregion
 }

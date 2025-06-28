@@ -51,5 +51,8 @@ MonoBehaviour:
   pfGatheringNode: {fileID: 9147184408132828016, guid: 6a683d4d265cebd44aae93b3625d586a, type: 3}
   possibleWorlds:
   - {fileID: 5842830537166711843, guid: 84b67542d616b074bb14ab870919de30, type: 3}
+  - {fileID: 5174796726253055870, guid: 24f3403f407ee3044a0a404079d5ea86, type: 3}
+  - {fileID: 4282279116531867631, guid: e7824ccbb9bea5b4e8ed6730ed7322a6, type: 3}
+  playerHouse: {fileID: 2127246811736038088, guid: 65a3ebcff90c39b45b59cc95fb47b697, type: 3}
   audioClipArray: []
   musicTrackArray: []
