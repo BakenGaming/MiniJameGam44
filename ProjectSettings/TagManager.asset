@@ -14,10 +14,10 @@ TagManager:
   - Player
   - Enemy
   - Ground
-  - 
-  - Wall
+  - Gatherable
+  - Non-Ground
   - Collectable
-  - 
+  - PlayerCollider
   - 
   - 
   - 
@@ -40,6 +40,18 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: GroundandWalls
+    uniqueID: 3051368431
+    locked: 0
+  - name: Gatherable
+    uniqueID: 562510905
+    locked: 0
+  - name: Collectable
+    uniqueID: 2844178149
+    locked: 0
+  - name: Player
+    uniqueID: 2156796513
     locked: 0
   m_RenderingLayers:
   - Default

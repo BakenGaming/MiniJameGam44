@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerHandler : MonoBehaviour, IHandler
 {
@@ -52,7 +53,9 @@ public class PlayerHandler : MonoBehaviour, IHandler
         _statSystem = new StatSystem(playerStatsSO);
         _healthSystem = new HealthSystem(_statSystem.GetPlayerHealth());
         GetComponent<IInputHandler>().Initialize();
-        GetComponent<IAttackHandler>().Initialize();
+        GetComponent<IGatherHandler>().Initialize();
     }
+
+
     #endregion
 }

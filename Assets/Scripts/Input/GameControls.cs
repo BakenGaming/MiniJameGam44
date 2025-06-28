@@ -88,237 +88,6 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
     ""name"": ""GameControls"",
     ""maps"": [
         {
-            ""name"": ""PlatformerControls"",
-            ""id"": ""6de8282f-88b4-445e-970d-992a8a417bf6"",
-            ""actions"": [
-                {
-                    ""name"": ""MoveInput"",
-                    ""type"": ""PassThrough"",
-                    ""id"": ""1067382e-6e4b-4549-b151-328111f9b9f4"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Jump"",
-                    ""type"": ""Button"",
-                    ""id"": ""c2ead762-481f-4b81-94ec-af7c2d76a6b3"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Attack"",
-                    ""type"": ""Button"",
-                    ""id"": ""8590d62a-0c8b-4176-8960-a67c1e0528a8"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Pause"",
-                    ""type"": ""Button"",
-                    ""id"": ""6cc04847-a4d5-4edf-a8ed-80df49cb9360"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": ""WASD"",
-                    ""id"": ""f4c5fb0c-3f08-48d4-9638-91abe43bb40c"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""f2b14f8f-f2e4-4fb3-a822-973c275d2954"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""c57c5d81-1d58-41c9-976f-e3e690d331ad"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""cf94b1eb-3b03-40c2-b8ac-a39aa4beff35"",
-                    ""path"": ""<Keyboard>/a"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""d7c5c2eb-7617-4c13-9c97-52bc93ade805"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""Arrows"",
-                    ""id"": ""f8467bbc-9f71-4df2-b57c-b259819dee89"",
-                    ""path"": ""2DVector"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": true,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""up"",
-                    ""id"": ""dec10b61-1557-4836-a275-0a958d70389c"",
-                    ""path"": ""<Keyboard>/upArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""b68bae7c-861a-41e3-ae0a-0960ffc13f21"",
-                    ""path"": ""<Keyboard>/downArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""7ed6307a-9393-47da-820a-6dff8e11c877"",
-                    ""path"": ""<Keyboard>/leftArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""right"",
-                    ""id"": ""29554c00-e85d-4031-bfd2-2ae4e969de0e"",
-                    ""path"": ""<Keyboard>/rightArrow"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""31587e9b-f6d6-416a-b1c5-6389e9f69fd9"",
-                    ""path"": ""<Gamepad>/leftStick"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""MoveInput"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""2c921e83-30cc-4927-9ff8-42e3ceccce11"",
-                    ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Jump"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""4e34ff86-ccef-49f8-b840-4055406c9d3a"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Jump"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e1f547f3-98b0-4571-b73f-6afafb0284a2"",
-                    ""path"": ""<Keyboard>/ctrl"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Attack"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""401d154e-89f8-4b43-9c8a-d58a9ed0fd95"",
-                    ""path"": ""<Gamepad>/buttonWest"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Attack"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""5e87161d-a0e0-4656-90d7-2338ee0527f5"",
-                    ""path"": ""<Keyboard>/escape"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Pause"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""cb6850e2-30e6-48dc-a438-c5a08f6d244f"",
-                    ""path"": ""<Gamepad>/start"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Pause"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
             ""name"": ""TopDownControls"",
             ""id"": ""a3bb5ad8-2335-488d-bb8c-6cedd7fb744a"",
             ""actions"": [
@@ -363,6 +132,15 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                     ""type"": ""Button"",
                     ""id"": ""b4054987-ec9d-4f6b-9788-17913d534d55"",
                     ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MousePosition"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""c7109f33-9eba-4bf4-af69-67d3e399b5e0"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -588,6 +366,17 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                     ""action"": ""Dash"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""729242e4-be7d-42e1-8a34-e8567869d8cb"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MousePosition"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -664,12 +453,6 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
     ],
     ""controlSchemes"": []
 }");
-        // PlatformerControls
-        m_PlatformerControls = asset.FindActionMap("PlatformerControls", throwIfNotFound: true);
-        m_PlatformerControls_MoveInput = m_PlatformerControls.FindAction("MoveInput", throwIfNotFound: true);
-        m_PlatformerControls_Jump = m_PlatformerControls.FindAction("Jump", throwIfNotFound: true);
-        m_PlatformerControls_Attack = m_PlatformerControls.FindAction("Attack", throwIfNotFound: true);
-        m_PlatformerControls_Pause = m_PlatformerControls.FindAction("Pause", throwIfNotFound: true);
         // TopDownControls
         m_TopDownControls = asset.FindActionMap("TopDownControls", throwIfNotFound: true);
         m_TopDownControls_MoveInput = m_TopDownControls.FindAction("MoveInput", throwIfNotFound: true);
@@ -677,6 +460,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
         m_TopDownControls_Interact = m_TopDownControls.FindAction("Interact", throwIfNotFound: true);
         m_TopDownControls_Pause = m_TopDownControls.FindAction("Pause", throwIfNotFound: true);
         m_TopDownControls_Dash = m_TopDownControls.FindAction("Dash", throwIfNotFound: true);
+        m_TopDownControls_MousePosition = m_TopDownControls.FindAction("MousePosition", throwIfNotFound: true);
         // UIControls
         m_UIControls = asset.FindActionMap("UIControls", throwIfNotFound: true);
         m_UIControls_Accept = m_UIControls.FindAction("Accept", throwIfNotFound: true);
@@ -685,7 +469,6 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
 
     ~@GameControls()
     {
-        UnityEngine.Debug.Assert(!m_PlatformerControls.enabled, "This will cause a leak and performance issues, GameControls.PlatformerControls.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_TopDownControls.enabled, "This will cause a leak and performance issues, GameControls.TopDownControls.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UIControls.enabled, "This will cause a leak and performance issues, GameControls.UIControls.Disable() has not been called.");
     }
@@ -760,135 +543,6 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // PlatformerControls
-    private readonly InputActionMap m_PlatformerControls;
-    private List<IPlatformerControlsActions> m_PlatformerControlsActionsCallbackInterfaces = new List<IPlatformerControlsActions>();
-    private readonly InputAction m_PlatformerControls_MoveInput;
-    private readonly InputAction m_PlatformerControls_Jump;
-    private readonly InputAction m_PlatformerControls_Attack;
-    private readonly InputAction m_PlatformerControls_Pause;
-    /// <summary>
-    /// Provides access to input actions defined in input action map "PlatformerControls".
-    /// </summary>
-    public struct PlatformerControlsActions
-    {
-        private @GameControls m_Wrapper;
-
-        /// <summary>
-        /// Construct a new instance of the input action map wrapper class.
-        /// </summary>
-        public PlatformerControlsActions(@GameControls wrapper) { m_Wrapper = wrapper; }
-        /// <summary>
-        /// Provides access to the underlying input action "PlatformerControls/MoveInput".
-        /// </summary>
-        public InputAction @MoveInput => m_Wrapper.m_PlatformerControls_MoveInput;
-        /// <summary>
-        /// Provides access to the underlying input action "PlatformerControls/Jump".
-        /// </summary>
-        public InputAction @Jump => m_Wrapper.m_PlatformerControls_Jump;
-        /// <summary>
-        /// Provides access to the underlying input action "PlatformerControls/Attack".
-        /// </summary>
-        public InputAction @Attack => m_Wrapper.m_PlatformerControls_Attack;
-        /// <summary>
-        /// Provides access to the underlying input action "PlatformerControls/Pause".
-        /// </summary>
-        public InputAction @Pause => m_Wrapper.m_PlatformerControls_Pause;
-        /// <summary>
-        /// Provides access to the underlying input action map instance.
-        /// </summary>
-        public InputActionMap Get() { return m_Wrapper.m_PlatformerControls; }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Enable()" />
-        public void Enable() { Get().Enable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.Disable()" />
-        public void Disable() { Get().Disable(); }
-        /// <inheritdoc cref="UnityEngine.InputSystem.InputActionMap.enabled" />
-        public bool enabled => Get().enabled;
-        /// <summary>
-        /// Implicitly converts an <see ref="PlatformerControlsActions" /> to an <see ref="InputActionMap" /> instance.
-        /// </summary>
-        public static implicit operator InputActionMap(PlatformerControlsActions set) { return set.Get(); }
-        /// <summary>
-        /// Adds <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <param name="instance">Callback instance.</param>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c> or <paramref name="instance"/> have already been added this method does nothing.
-        /// </remarks>
-        /// <seealso cref="PlatformerControlsActions" />
-        public void AddCallbacks(IPlatformerControlsActions instance)
-        {
-            if (instance == null || m_Wrapper.m_PlatformerControlsActionsCallbackInterfaces.Contains(instance)) return;
-            m_Wrapper.m_PlatformerControlsActionsCallbackInterfaces.Add(instance);
-            @MoveInput.started += instance.OnMoveInput;
-            @MoveInput.performed += instance.OnMoveInput;
-            @MoveInput.canceled += instance.OnMoveInput;
-            @Jump.started += instance.OnJump;
-            @Jump.performed += instance.OnJump;
-            @Jump.canceled += instance.OnJump;
-            @Attack.started += instance.OnAttack;
-            @Attack.performed += instance.OnAttack;
-            @Attack.canceled += instance.OnAttack;
-            @Pause.started += instance.OnPause;
-            @Pause.performed += instance.OnPause;
-            @Pause.canceled += instance.OnPause;
-        }
-
-        /// <summary>
-        /// Removes <see cref="InputAction.started"/>, <see cref="InputAction.performed"/> and <see cref="InputAction.canceled"/> callbacks provided via <param cref="instance" /> on all input actions contained in this map.
-        /// </summary>
-        /// <remarks>
-        /// Calling this method when <paramref name="instance" /> have not previously been registered has no side-effects.
-        /// </remarks>
-        /// <seealso cref="PlatformerControlsActions" />
-        private void UnregisterCallbacks(IPlatformerControlsActions instance)
-        {
-            @MoveInput.started -= instance.OnMoveInput;
-            @MoveInput.performed -= instance.OnMoveInput;
-            @MoveInput.canceled -= instance.OnMoveInput;
-            @Jump.started -= instance.OnJump;
-            @Jump.performed -= instance.OnJump;
-            @Jump.canceled -= instance.OnJump;
-            @Attack.started -= instance.OnAttack;
-            @Attack.performed -= instance.OnAttack;
-            @Attack.canceled -= instance.OnAttack;
-            @Pause.started -= instance.OnPause;
-            @Pause.performed -= instance.OnPause;
-            @Pause.canceled -= instance.OnPause;
-        }
-
-        /// <summary>
-        /// Unregisters <param cref="instance" /> and unregisters all input action callbacks via <see cref="PlatformerControlsActions.UnregisterCallbacks(IPlatformerControlsActions)" />.
-        /// </summary>
-        /// <seealso cref="PlatformerControlsActions.UnregisterCallbacks(IPlatformerControlsActions)" />
-        public void RemoveCallbacks(IPlatformerControlsActions instance)
-        {
-            if (m_Wrapper.m_PlatformerControlsActionsCallbackInterfaces.Remove(instance))
-                UnregisterCallbacks(instance);
-        }
-
-        /// <summary>
-        /// Replaces all existing callback instances and previously registered input action callbacks associated with them with callbacks provided via <param cref="instance" />.
-        /// </summary>
-        /// <remarks>
-        /// If <paramref name="instance" /> is <c>null</c>, calling this method will only unregister all existing callbacks but not register any new callbacks.
-        /// </remarks>
-        /// <seealso cref="PlatformerControlsActions.AddCallbacks(IPlatformerControlsActions)" />
-        /// <seealso cref="PlatformerControlsActions.RemoveCallbacks(IPlatformerControlsActions)" />
-        /// <seealso cref="PlatformerControlsActions.UnregisterCallbacks(IPlatformerControlsActions)" />
-        public void SetCallbacks(IPlatformerControlsActions instance)
-        {
-            foreach (var item in m_Wrapper.m_PlatformerControlsActionsCallbackInterfaces)
-                UnregisterCallbacks(item);
-            m_Wrapper.m_PlatformerControlsActionsCallbackInterfaces.Clear();
-            AddCallbacks(instance);
-        }
-    }
-    /// <summary>
-    /// Provides a new <see cref="PlatformerControlsActions" /> instance referencing this action map.
-    /// </summary>
-    public PlatformerControlsActions @PlatformerControls => new PlatformerControlsActions(this);
-
     // TopDownControls
     private readonly InputActionMap m_TopDownControls;
     private List<ITopDownControlsActions> m_TopDownControlsActionsCallbackInterfaces = new List<ITopDownControlsActions>();
@@ -897,6 +551,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_TopDownControls_Interact;
     private readonly InputAction m_TopDownControls_Pause;
     private readonly InputAction m_TopDownControls_Dash;
+    private readonly InputAction m_TopDownControls_MousePosition;
     /// <summary>
     /// Provides access to input actions defined in input action map "TopDownControls".
     /// </summary>
@@ -928,6 +583,10 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "TopDownControls/Dash".
         /// </summary>
         public InputAction @Dash => m_Wrapper.m_TopDownControls_Dash;
+        /// <summary>
+        /// Provides access to the underlying input action "TopDownControls/MousePosition".
+        /// </summary>
+        public InputAction @MousePosition => m_Wrapper.m_TopDownControls_MousePosition;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -969,6 +628,9 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
             @Dash.started += instance.OnDash;
             @Dash.performed += instance.OnDash;
             @Dash.canceled += instance.OnDash;
+            @MousePosition.started += instance.OnMousePosition;
+            @MousePosition.performed += instance.OnMousePosition;
+            @MousePosition.canceled += instance.OnMousePosition;
         }
 
         /// <summary>
@@ -995,6 +657,9 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
             @Dash.started -= instance.OnDash;
             @Dash.performed -= instance.OnDash;
             @Dash.canceled -= instance.OnDash;
+            @MousePosition.started -= instance.OnMousePosition;
+            @MousePosition.performed -= instance.OnMousePosition;
+            @MousePosition.canceled -= instance.OnMousePosition;
         }
 
         /// <summary>
@@ -1136,42 +801,6 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
     /// </summary>
     public UIControlsActions @UIControls => new UIControlsActions(this);
     /// <summary>
-    /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "PlatformerControls" which allows adding and removing callbacks.
-    /// </summary>
-    /// <seealso cref="PlatformerControlsActions.AddCallbacks(IPlatformerControlsActions)" />
-    /// <seealso cref="PlatformerControlsActions.RemoveCallbacks(IPlatformerControlsActions)" />
-    public interface IPlatformerControlsActions
-    {
-        /// <summary>
-        /// Method invoked when associated input action "MoveInput" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnMoveInput(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnJump(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Attack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnAttack(InputAction.CallbackContext context);
-        /// <summary>
-        /// Method invoked when associated input action "Pause" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnPause(InputAction.CallbackContext context);
-    }
-    /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "TopDownControls" which allows adding and removing callbacks.
     /// </summary>
     /// <seealso cref="TopDownControlsActions.AddCallbacks(ITopDownControlsActions)" />
@@ -1213,6 +842,13 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnDash(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "MousePosition" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnMousePosition(InputAction.CallbackContext context);
     }
     /// <summary>
     /// Interface to implement callback methods for all input action callbacks associated with input actions defined by "UIControls" which allows adding and removing callbacks.

@@ -7,7 +7,7 @@ public class StaticVariables : MonoBehaviour
 {
     public static StaticVariables i;
     [SerializeField] private LayerMask whatIsGround, whatIsPlayer, whatIsEnemy, 
-        collectable, whatIsUI;
+        collectable, whatIsUI, whatIsNonGround;
     [SerializeField] private AudioMixerGroup masterMixer, sfxMixer, musicMixer;
 
     private void Awake() 
@@ -20,7 +20,8 @@ public class StaticVariables : MonoBehaviour
     public LayerMask GetEnemy() { return whatIsEnemy; }
     public LayerMask GetCollectable() { return collectable; }
     public LayerMask GetUI(){ return whatIsUI; }
-    public AudioMixerGroup GetMasterMixer(){ return masterMixer; }
+    public LayerMask GetWhatIsNonGround() { return whatIsNonGround; }
+    public AudioMixerGroup GetMasterMixer() { return masterMixer; }
     public AudioMixerGroup GetSFXMixer(){ return sfxMixer; }
     public AudioMixerGroup GetMusicMixer(){ return musicMixer; }
 
